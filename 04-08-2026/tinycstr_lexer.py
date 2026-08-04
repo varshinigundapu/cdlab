@@ -11,7 +11,7 @@ import sys
 class TinyCStrLexer(Lexer):
     tokens = {
         INT, ID, NUMBER, PRINT, ASSIGN, SEMICOLON, LBRACE, RBRACE, COMMA,
-        PLUS, MINUS, TIMES, DIVIDE, REMAINDER, LPAREN, RPAREN,
+        PLUS, MINUS, TIMES, DIVIDE, REMAINDER,LPAREN, RPAREN,
     }
     ignore = ' \t'
     ignore_COMMENT = r'//.*'
