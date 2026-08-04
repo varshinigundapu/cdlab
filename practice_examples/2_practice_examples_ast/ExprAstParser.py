@@ -58,7 +58,7 @@ class ExprAstParser(Parser):
 
 lexer = ExprAstLexer()
 parser = ExprAstParser()
-inp = 'a=2+3*5'
+inp = 'a=2+3*5*6'
 result = parser.parse(lexer.tokenize(inp))
 print(pretty(result))
 to_dot(result)
